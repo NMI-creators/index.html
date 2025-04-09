@@ -68,7 +68,7 @@
     <a href="archive.html" class="link-button">作品アーカイブ</a>
     <a href="blog.html" class="link-button">開発者ブログ</a>
     <a href="setting.html" class="link-button">作品詳細設定</a>
-    <a href="event.html" class="link-button">イベントページ</a>
+    <a href="https://nmi-creators.github.io/event.html/" class="link-button">イベントページ</a>
   </div>
 
 </body>
