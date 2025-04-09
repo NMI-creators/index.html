@@ -1,4 +1,3 @@
-# index.html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -15,12 +14,19 @@
 
     h1 {
       font-size: 2.2em;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
       margin-bottom: 40px;
     }
 
     .button-container {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 20px;
       max-width: 400px;
       margin: 0 auto;
@@ -41,21 +47,22 @@
       background-color: #666;
     }
 
-    @media (min-width: 600px) {
+    @media (max-width: 500px) {
       .button-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .link-button {
-        width: 180px;
+        grid-template-columns: 1fr;
       }
     }
   </style>
 </head>
 <body>
 
-  <h1>NMIクリエイターず作品アーカイブ</h1>
+  <h1>
+    NMIクリエイターず<br>
+    作品アーカイブ
+  </h1>
+
+  <!-- 企業ロゴの画像（logo.pngなどを同じフォルダに置いてください） -->
+  <img src="logo.png" alt="NMIクリエイターず ロゴ" class="logo">
 
   <div class="button-container">
     <a href="archive.html" class="link-button">作品アーカイブ</a>
