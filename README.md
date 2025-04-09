@@ -62,7 +62,7 @@
   </h1>
 
   <!-- 企業ロゴの画像（logo.pngなどを同じフォルダに置いてください） -->
-  <img src="logo.png" alt="NMIクリエイターず ロゴ" class="logo">
+  <img src="無題90_20250408001231.png" alt="NMIクリエイターず ロゴ" class="logo">
 
   <div class="button-container">
     <a href="archive.html" class="link-button">作品アーカイブ</a>
