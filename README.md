@@ -93,7 +93,7 @@
       </div>
     </div>
       <div class="video-link">
-      <a href="[動画ページへのリンク](https://archivegydoldnitenngo.simdif.com)" target="_blank">
+      <a href="https://archivegydoldnitenngo.simdif.com" target="_blank">
         <img src="IMG_8543.png" alt="サムネイル">
       </a>
       <div class="video-text">
