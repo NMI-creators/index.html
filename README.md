@@ -133,8 +133,7 @@
     </div>
   </div>
 </div>
-      
-<div class="video-link">
+      <div class="video-link">
   <a href="<div class="video-link">
   <a href="https://archivegydoldnitenngo.simdif.com" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
@@ -147,8 +146,7 @@
     </div>
   </div>
 </div>
-    
-<div class="video-link">
+    <div class="video-link">
   <a href="<div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
@@ -161,8 +159,7 @@
     </div>
   </div>
 </div>
-    
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -174,8 +171,7 @@
     </div>
   </div>
 </div>
-
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -187,8 +183,7 @@
     </div>
   </div>
 </div>
-
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -200,8 +195,7 @@
     </div>
   </div>
 </div>
-
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -213,8 +207,7 @@
     </div>
   </div>
 </div>
-
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -226,8 +219,7 @@
     </div>
   </div>
 </div>
-
-<div class="video-link">
+    <div class="video-link">
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
@@ -241,8 +233,8 @@
 </div>
 
       <!-- ▲ここまで -->
-    </div>
   </div>
+ </div>
 
   <!-- 各章紹介 -->
   <div class="section">
