@@ -1,264 +1,190 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>NMIクリエイターず ホームページ</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NMIクリエイターずホームページ</title>
   <style>
     body {
       font-family: sans-serif;
-      margin: 20px;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
     }
     h1 {
       text-align: center;
     }
-    .section {
-      margin: 30px 0;
+    .intro {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
     }
-    button {
-      padding: 10px;
-      margin: 5px 0;
-      cursor: pointer;
-      font-size: 16px;
+    .intro img {
+      max-width: 150px;
+      margin-right: 20px;
+    }
+    .video {
+      margin-bottom: 40px;
     }
     .accordion {
-      background-color: #eee;
-      border: none;
-      outline: none;
-      width: 100%;
-      text-align: left;
+      margin-bottom: 20px;
     }
-    .panel {
-      display: none;
-      padding-left: 15px;
+    details {
+      margin-bottom: 10px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
     }
-    .video-link {
+    summary {
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .video-entry {
       display: flex;
       align-items: center;
-      gap: 15px;
-      margin: 10px 0;
-      padding: 10px;
       border: 1px solid #ccc;
-      border-radius: 8px;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #fff;
     }
-    .video-link img {
-      width: 120px;
-      height: auto;
-      border-radius: 8px;
+    .video-entry img {
+      max-width: 100px;
+      margin-right: 15px;
+      cursor: pointer;
     }
-    .video-text {
+    .video-info {
       flex: 1;
     }
-    .password-block {
+    .copy-button {
       margin-top: 5px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .copy-btn {
-      padding: 5px 10px;
-      font-size: 14px;
-      background-color: #ddd;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
     }
     .link-button {
       display: inline-block;
-      margin: 5px 0;
-      padding: 10px;
-      background-color: #ccc;
-      border: none;
+      background-color: #eee;
+      padding: 10px 15px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
       text-decoration: none;
-      color: black;
-      border-radius: 6px;
+      color: #000;
     }
-    iframe {
-      width: 100%;
-      height: 315px;
-      max-width: 560px;
-      border: none;
+    .link-button:hover {
+      background-color: #ddd;
     }
   </style>
   <script>
-    function togglePanel(button) {
-      var panel = button.nextElementSibling;
-      panel.style.display = panel.style.display === "block" ? "none" : "block";
-    }
     function copyPassword(password) {
-      navigator.clipboard.writeText(password).then(() => {
-        alert("パスワードをコピーしました: " + password);
-      }).catch(err => {
-        alert("コピーに失敗しました");
-      });
+      navigator.clipboard.writeText(password);
+      alert("パスワードをコピーしました: " + password);
     }
   </script>
 </head>
 <body>
 
-  <h1>NMIクリエイターず ホームページ</h1>
+  <h1>NMIクリエイターずホームページ</h1>
 
-  <!-- 紹介文 -->
-  <div class="section" style="display: flex; align-items: center; gap: 20px;">
-    <img src="無題90_20250408001231.png" alt="NMIクリエイターずのロゴ" style="width: 200px; height: auto; border-radius: 10px;">
-    <div>
-      <h2>NMIクリエイターずとは？</h2>
-      <p>
-        NMIクリエイターずは、動画制作・脚本・映像編集などを手がける高校生クリエイターチームです。<br>
-        主な作品には「凱友伝」や「エストリア叙事詩」があり、視聴者にワクワクする世界観を届けることを目指しています。
-      </p>
-    </div>
+  <div class="intro">
+    <img src="無題90_20250408001231.png" alt="NMIクリエイターず ロゴ" />
+    <p>
+      NMIクリエイターずは、動画制作・脚本・映像編集などを手がける高校生クリエイターチームです。<br>
+      主な作品には「凱友伝」や「エストリア叙事詩」があり、視聴者にワクワクする世界観を届けることを目指しています。
+    </p>
   </div>
 
-  <!-- 説明動画 -->
-  <div class="section">
-    <h2>このサイトの使い方（説明動画）</h2>
-    <iframe src="動画のURLをここに入れてください（GitHubにアップロードしたもの）" allowfullscreen></iframe>
+  <div class="video">
+    <h2>ホームページの使い方（解説動画）</h2>
+    <video width="100%" controls>
+      <source src="ファイル名" type="video/mp4">
+      お使いのブラウザは動画に対応していません。
+    </video>
   </div>
 
-  <!-- アーカイブ -->
-  <div class="section">
-    <h2>アーカイブ</h2>
-    <button class="accordion" onclick="togglePanel(this)">アーカイブを表示</button>
-    <div class="panel">
-      <!-- ▼ここからコピーして章を増やせます -->
-      <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-        <div class="video-text">
-    <p>凱友伝 旧2章</p>
-    <div class="password-block">
-      <span class="password">GYD_2</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_2')">コピー</button>
-    </div>
-  </div>
-</div>
-      <div class="video-link">
-  <a href="<div class="video-link">
-  <a href="https://archivegydoldnitenngo.simdif.com" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 旧2.5章</p>
-    <div class="password-block">
-      <span class="password">GYD_2.5</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_2.5')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="<div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 新1章</p>
-    <div class="password-block">
-      <span class="password">GYD_n_1</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_n_1')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 カオストーナメント</p>
-    <div class="password-block">
-      <span class="password">GYD_chaos</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_chaos')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 旧3章</p>
-    <div class="password-block">
-      <span class="password">GYD_3</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_3')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 新2章</p>
-    <div class="password-block">
-      <span class="password">GYD_n_2</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_n_2')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 新3章</p>
-    <div class="password-block">
-      <span class="password">GYD_n_3</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_n_3')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>凱友伝 高校生最強ランキング</p>
-    <div class="password-block">
-      <span class="password">GYD_ranking</span>
-      <button class="copy-btn" onclick="copyPassword('GYD_ranking')">コピー</button>
-    </div>
-  </div>
-</div>
-    <div class="video-link">
-  <a href="https://example.com/video-link" target="_blank">
-    <img src="IMG_8540.png" alt="サムネイル">
-  </a>
-  <div class="video-text">
-    <p>未定 乞うご期待</p>
-    <div class="password-block">
-      <span class="password">ＮＯ password</span>
-      <button class="copy-btn" onclick="copyPassword('まだや言うとるやろがい。お前、やりませんねぇｽｷﾞｨ!!')">コピー</button>
-    </div>
-  </div>
-</div>
-
-      <!-- ▲ここまで -->
-  </div>
- </div>
-
-  <!-- 各章紹介 -->
-  <div class="section">
-    <h2>世界観と各章の紹介</h2>
-    <button class="accordion" onclick="togglePanel(this)">章紹介を表示</button>
-    <div class="panel">
-      <!-- ▼ここからコピーして紹介ページを増やせます -->
-      <a class="link-button" href="凱友伝紹介ページへのリンク">凱友伝 紹介ページ</a><br>
-      <a class="link-button" href="エストリア叙事詩紹介ページへのリンク">エストリア叙事詩 紹介ページ</a><br>
-      <!-- ▲ここまで -->
-    </div>
+  <div class="accordion">
+    <details>
+      <summary>アーカイブページ</summary>
+      <details>
+        <summary>凱友伝</summary>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="旧2章" /></a>
+          <div class="video-info">
+            <div>凱友伝 旧2章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_2')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="https://archivegydoldnitenngo.simdif.com"><img src="IMG_8543.png" alt="旧2.5章" /></a>
+          <div class="video-info">
+            <div>凱友伝 旧2.5章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_2.5')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="新1章" /></a>
+          <div class="video-info">
+            <div>凱友伝 新1章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_n_1')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="カオストーナメント" /></a>
+          <div class="video-info">
+            <div>凱友伝 カオストーナメント</div>
+            <button class="copy-button" onclick="copyPassword('GYD_chaos')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8543.png" alt="旧3章" /></a>
+          <div class="video-info">
+            <div>凱友伝 旧3章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_3')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="新2章" /></a>
+          <div class="video-info">
+            <div>凱友伝 新2章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_n_2')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="新3章" /></a>
+          <div class="video-info">
+            <div>凱友伝 新3章</div>
+            <button class="copy-button" onclick="copyPassword('GYD_n_3')">パスワードをコピー</button>
+          </div>
+        </div>
+        <div class="video-entry">
+          <a href="ここにURL"><img src="IMG_8540.png" alt="高校生最強ランキング" /></a>
+          <div class="video-info">
+            <div>凱友伝 高校生最強ランキング</div>
+            <button class="copy-button" onclick="copyPassword('GYD_ranking')">パスワードをコピー</button>
+          </div>
+        </div>
+      </details>
+      <details>
+        <summary>エストリア叙事詩</summary>
+        <div class="video-entry">
+          <img src="IMG_8544.jpeg" alt="エストリア叙事詩" />
+          <div class="video-info">
+            <div>近日公開！<br>乞うご期待！</div>
+          </div>
+        </div>
+      </details>
+    </details>
   </div>
 
-  <!-- キャラクター紹介 -->
-  <div class="section">
-    <h2>キャラクター紹介</h2>
-    <a class="link-button" href="キャラクター紹介ページへのリンク">キャラクター紹介ページへ</a>
+  <div class="accordion">
+    <details>
+      <summary>世界観や各章紹介</summary>
+      <a class="link-button" href="ここにURL">凱友伝</a>
+      <a class="link-button" href="ここにURL">エストリア叙事詩</a>
+    </details>
   </div>
 
-  <!-- 用語紹介 -->
-  <div class="section">
-    <h2>用語紹介</h2>
-    <a class="link-button" href="用語紹介ページへのリンク">用語紹介ページへ</a>
-  </div>
+  <a class="link-button" href="ここにURL">用語辞典</a>
+  <a class="link-button" href="ここにURL">キャラクター紹介</a>
 
 </body>
 </html>
