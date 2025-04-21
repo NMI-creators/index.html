@@ -121,7 +121,7 @@
           </div>
         </div>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8540.png" alt="新1章" /></a>
+          <a href="https://gydnewchapterone.simdif.com"><img src="IMG_8540.png" alt="新1章" /></a>
           <div class="video-info">
             <div>凱友伝 新1章</div>
             <button class="copy-button" onclick="copyPassword('GYD_n_1')">パスワードをコピー</button>
