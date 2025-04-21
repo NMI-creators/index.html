@@ -128,7 +128,7 @@
           </div>
         </div>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8540.png" alt="カオストーナメント" /></a>
+          <a href="https://gydchaos.simdif.com"><img src="IMG_8540.png" alt="カオストーナメント" /></a>
           <div class="video-info">
             <div>凱友伝 カオストーナメント</div>
             <button class="copy-button" onclick="copyPassword('GYD_chaos')">パスワードをコピー</button>
