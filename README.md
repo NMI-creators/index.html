@@ -84,7 +84,6 @@
       var panel = button.nextElementSibling;
       panel.style.display = panel.style.display === "block" ? "none" : "block";
     }
-
     function copyPassword(password) {
       navigator.clipboard.writeText(password).then(() => {
         alert("パスワードをコピーしました: " + password);
@@ -123,35 +122,124 @@
     <div class="panel">
       <!-- ▼ここからコピーして章を増やせます -->
       <div class="video-link">
-        <img src="IMG_8540.png" alt="サムネイル">
-        <div class="video-text">
-          <p>凱友伝 旧2章</p>
-          <div class="password-block">
-            <span class="password">GYD_2</span>
-            <button class="copy-btn" onclick="copyPassword('GYD_2')">コピー</button>
-          </div>
-        </div>
-      </div>
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 旧2章</p>
+    <div class="password-block">
+      <span class="password">GYD_2</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_2')">コピー</button>
+    </div>
+  </div>
+</div>
+      
 <div class="video-link">
-        <img src="IMG_8543.png" alt="サムネイル">
-        <div class="video-text">
-          <p>凱友伝 旧2.5章</p>
-          <div class="password-block">
-            <span class="password">GYD_2.5</span>
-            <button class="copy-btn" onclick="copyPassword('GYD_2.5')">コピー</button>
-          </div>
-        </div>
-      </div>
-      <div class="video-link">
-        <img src="IMG_8540.png" alt="サムネイル">
-        <div class="video-text">
-          <p>凱友伝 新1章</p>
-          <div class="password-block">
-            <span class="password">GYD_n_1</span>
-            <button class="copy-btn" onclick="copyPassword('GYD_n_1')">コピー</button>
-          </div>
-        </div>
-      </div>
+  <a href="<div class="video-link">
+  <a href="https://archivegydoldnitenngo.simdif.com" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 旧2.5章</p>
+    <div class="password-block">
+      <span class="password">GYD_2.5</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_2.5')">コピー</button>
+    </div>
+  </div>
+</div>
+    
+<div class="video-link">
+  <a href="<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 新1章</p>
+    <div class="password-block">
+      <span class="password">GYD_n_1</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_n_1')">コピー</button>
+    </div>
+  </div>
+</div>
+    
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 カオストーナメント</p>
+    <div class="password-block">
+      <span class="password">GYD_chaos</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_chaos')">コピー</button>
+    </div>
+  </div>
+</div>
+
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 旧3章</p>
+    <div class="password-block">
+      <span class="password">GYD_3</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_3')">コピー</button>
+    </div>
+  </div>
+</div>
+
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 新2章</p>
+    <div class="password-block">
+      <span class="password">GYD_n_2</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_n_2')">コピー</button>
+    </div>
+  </div>
+</div>
+
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 新3章</p>
+    <div class="password-block">
+      <span class="password">GYD_n_3</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_n_3')">コピー</button>
+    </div>
+  </div>
+</div>
+
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>凱友伝 高校生最強ランキング</p>
+    <div class="password-block">
+      <span class="password">GYD_ranking</span>
+      <button class="copy-btn" onclick="copyPassword('GYD_ranking')">コピー</button>
+    </div>
+  </div>
+</div>
+
+<div class="video-link">
+  <a href="https://example.com/video-link" target="_blank">
+    <img src="IMG_8540.png" alt="サムネイル">
+  </a>
+  <div class="video-text">
+    <p>未定 乞うご期待</p>
+    <div class="password-block">
+      <span class="password">ＮＯ password</span>
+      <button class="copy-btn" onclick="copyPassword('まだや言うとるやろがい。お前、やりませんねぇｽｷﾞｨ!!')">コピー</button>
+    </div>
+  </div>
+</div>
+
       <!-- ▲ここまで -->
     </div>
   </div>
