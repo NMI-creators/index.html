@@ -87,20 +87,20 @@
       <div class="video-text">
         <p>凱友伝 旧2章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_2</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_2')">コピー</button>
         </div>
       </div>
     </div>
       <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8543.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 旧2.5章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_2.5</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_2.5')">コピー</button>
         </div>
       </div>
     </div>
@@ -111,8 +111,8 @@
       <div class="video-text">
         <p>凱友伝 新1章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_n_1</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_n_1')">コピー</button>
         </div>
       </div>
     </div>
@@ -123,20 +123,20 @@
       <div class="video-text">
         <p>凱友伝 カオストーナメント</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_chaos</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_chaos')">コピー</button>
         </div>
       </div>
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8543.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 旧3章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_3</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_3')">コピー</button>
         </div>
       </div>
     </div>
@@ -147,8 +147,8 @@
       <div class="video-text">
         <p>凱友伝 新2章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_n_2</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_n_2')">コピー</button>
         </div>
       </div>
     </div>
@@ -171,8 +171,8 @@
       <div class="video-text">
         <p>凱友伝 高校生最強ランキング</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_ranking</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_ranking')">コピー</button>
         </div>
       </div>
     </div>
