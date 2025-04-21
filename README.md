@@ -2,73 +2,119 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NMIクリエイターず作品アーカイブ</title>
+  <title>NMIクリエイターず ホームページ</title>
   <style>
     body {
-      font-family: "Helvetica", sans-serif;
-      background-color: #f9f9f9;
-      text-align: center;
-      padding: 50px 20px;
+      font-family: sans-serif;
+      margin: 20px;
     }
-
     h1 {
-      font-size: 2.2em;
-      margin-bottom: 20px;
-      line-height: 1.5;
+      text-align: center;
     }
-
-    .logo {
-      width: 200px;
-      height: auto;
-      margin-bottom: 40px;
+    .section {
+      margin: 30px 0;
     }
-
-    .button-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      max-width: 400px;
-      margin: 0 auto;
+    button {
+      padding: 10px;
+      margin: 5px 0;
+      cursor: pointer;
+      font-size: 16px;
     }
-
+    .accordion {
+      background-color: #eee;
+      border: none;
+      outline: none;
+      width: 100%;
+      text-align: left;
+    }
+    .panel {
+      display: none;
+      padding-left: 15px;
+    }
     .link-button {
-      display: block;
-      padding: 20px;
-      font-size: 1.2em;
-      background-color: #444;
-      color: white;
+      display: inline-block;
+      margin: 5px 0;
+      padding: 10px;
+      background-color: #ccc;
+      border: none;
       text-decoration: none;
-      border-radius: 10px;
-      transition: background-color 0.3s;
+      color: black;
     }
-
-    .link-button:hover {
-      background-color: #666;
-    }
-
-    @media (max-width: 500px) {
-      .button-container {
-        grid-template-columns: 1fr;
-      }
+    iframe {
+      width: 100%;
+      height: 315px;
+      max-width: 560px;
+      border: none;
     }
   </style>
+  <script>
+    function togglePanel(button) {
+      var panel = button.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    }
+  </script>
 </head>
 <body>
 
-  <h1>
-    NMIクリエイターず<br>
-    作品アーカイブ
-  </h1>
+  <h1>NMIクリエイターず ホームページ</h1>
 
-  <!-- 企業ロゴの画像（logo.pngなどを同じフォルダに置いてください） -->
-  <img src="無題90_20250408001231.png" alt="NMIクリエイターず ロゴ" class="logo">
+  <div class="section" style="display: flex; align-items: center; gap: 20px;">
+  <img src="画像のURLをここに入れてください" alt="NMIクリエイターずのロゴ" style="width: 200px; height: auto; border-radius: 10px;">
+  <div>
+    <h2>NMIクリエイターずとは？</h2>
+    <p>
+      NMIクリエイターずは、動画制作・脚本・映像編集などを手がける高校生クリエイターチームです。<br>
+      主な作品には「凱友伝」や「エストリア叙事詩」があり、視聴者にワクワクする世界観を届けることを目指しています。
+    </p>
+  </div>
+</div>
 
-  <div class="button-container">
-    <a href="https://nmi-creators.github.io/archive.html/" class="link-button">作品アーカイブ</a>
-    <a href="blog.html" class="link-button">開発者ブログ</a>
-    <a href="setting.html" class="link-button">作品詳細設定</a>
-    <a href="https://nmi-creators.github.io/event.html/" class="link-button">イベントページ(準備中)</a>
+
+  <div class="section">
+    <h2>このサイトの使い方（説明動画）</h2>
+    <iframe src="動画のURLをここに入れてください（GitHubにアップロードしたもの）" allowfullscreen></iframe>
+  </div>
+
+  <div class="section">
+    <h2>アーカイブ</h2>
+    <button class="accordion" onclick="togglePanel(this)">アーカイブを表示</button>
+    <div class="panel">
+      <!-- ▼ここからコピーして章を増やせます -->
+      <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>ここに章タイトル</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+      <!-- ▲ここまで -->
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>章ごとの紹介</h2>
+    <button class="accordion" onclick="togglePanel(this)">章紹介を表示</button>
+    <div class="panel">
+      <!-- ▼ここからコピーして紹介ページを増やせます -->
+      <a class="link-button" href="凱友伝紹介ページへのリンク">凱友伝 紹介ページ</a><br>
+      <a class="link-button" href="凱友伝紹介ページへのリンク">エストリア叙事詩 紹介ページ</a><br>
+      <!-- ▲ここまで -->
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>キャラクター紹介</h2>
+    <a class="link-button" href="キャラクター紹介ページへのリンク">キャラクター紹介ページへ</a>
+  </div>
+
+  <div class="section">
+    <h2>用語紹介</h2>
+    <a class="link-button" href="用語紹介ページへのリンク">用語紹介ページへ</a>
   </div>
 
 </body>
