@@ -59,7 +59,7 @@
   <h1>NMIクリエイターず ホームページ</h1>
 
   <div class="section" style="display: flex; align-items: center; gap: 20px;">
-  <img src="画像のURLをここに入れてください" alt="NMIクリエイターずのロゴ" style="width: 200px; height: auto; border-radius: 10px;">
+  <img src="無題90_20250408001231.png" alt="NMIクリエイターずのロゴ" style="width: 200px; height: auto; border-radius: 10px;">
   <div>
     <h2>NMIクリエイターずとは？</h2>
     <p>
@@ -85,19 +85,115 @@
         <img src="サムネイル画像のURL" alt="サムネイル">
       </a>
       <div class="video-text">
-        <p>ここに章タイトル</p>
+        <p>凱友伝 旧2章</p>
         <div class="password-block">
           <span class="password">ここにパスワード</span>
           <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
         </div>
       </div>
     </div>
+      <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 旧2.5章</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 新1章</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 カオストーナメント</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 旧3章</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 新2章</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 新3章</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>凱友伝 高校生最強ランキング</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div>
+    <div class="video-link">
+      <a href="動画ページへのリンク" target="_blank">
+        <img src="サムネイル画像のURL" alt="サムネイル">
+      </a>
+      <div class="video-text">
+        <p>未定</p>
+        <div class="password-block">
+          <span class="password">ここにパスワード</span>
+          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+        </div>
+      </div>
+    </div＞
       <!-- ▲ここまで -->
     </div>
   </div>
 
   <div class="section">
-    <h2>章ごとの紹介</h2>
+    <h2>世界観と各章の紹介</h2>
     <button class="accordion" onclick="togglePanel(this)">章紹介を表示</button>
     <div class="panel">
       <!-- ▼ここからコピーして紹介ページを増やせます -->
