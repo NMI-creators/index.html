@@ -178,7 +178,7 @@
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="無題92_20250413005044.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>未定</p>
