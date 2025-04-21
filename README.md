@@ -82,7 +82,7 @@
       <!-- ▼ここからコピーして章を増やせます -->
       <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 旧2章</p>
@@ -93,7 +93,7 @@
       </div>
     </div>
       <div class="video-link">
-      <a href="動画ページへのリンク" target="_blank">
+      <a href="[動画ページへのリンク](https://archivegydoldnitenngo.simdif.com)" target="_blank">
         <img src="IMG_8543.png" alt="サムネイル">
       </a>
       <div class="video-text">
@@ -106,7 +106,7 @@
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 新1章</p>
@@ -118,7 +118,7 @@
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 カオストーナメント</p>
@@ -142,7 +142,7 @@
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 新2章</p>
@@ -154,19 +154,19 @@
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 新3章</p>
         <div class="password-block">
-          <span class="password">ここにパスワード</span>
-          <button class="copy-btn" onclick="copyPassword('ここにパスワード')">コピー</button>
+          <span class="password">GYD_n_3</span>
+          <button class="copy-btn" onclick="copyPassword('GYD_n_3')">コピー</button>
         </div>
       </div>
     </div>
     <div class="video-link">
       <a href="動画ページへのリンク" target="_blank">
-        <img src="サムネイル画像のURL" alt="サムネイル">
+        <img src="IMG_8540.png" alt="サムネイル">
       </a>
       <div class="video-text">
         <p>凱友伝 高校生最強ランキング</p>
