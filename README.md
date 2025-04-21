@@ -107,7 +107,7 @@
       <details>
         <summary>凱友伝</summary>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8540.png" alt="旧2章" /></a>
+          <a href="https://archivegydoldni.simdif.com"><img src="IMG_8540.png" alt="旧2章" /></a>
           <div class="video-info">
             <div>凱友伝 旧2章</div>
             <button class="copy-button" onclick="copyPassword('GYD_2')">パスワードをコピー</button>
@@ -177,14 +177,14 @@
 
   <div class="accordion">
     <details>
-      <summary>世界観や各章紹介</summary>
+      <summary>世界観や各章紹介(準備中､､､)</summary>
       <a class="link-button" href="ここにURL">凱友伝</a>
       <a class="link-button" href="ここにURL">エストリア叙事詩</a>
     </details>
   </div>
 
-  <a class="link-button" href="ここにURL">用語辞典</a>
-  <a class="link-button" href="ここにURL">キャラクター紹介</a>
+  <a class="link-button" href="ここにURL">用語辞典(準備中)</a>
+  <a class="link-button" href="ここにURL">キャラクター紹介(準備中)</a>
 
 </body>
 </html>
