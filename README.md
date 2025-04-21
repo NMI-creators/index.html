@@ -125,7 +125,7 @@
   <a href="https://example.com/video-link" target="_blank">
     <img src="IMG_8540.png" alt="サムネイル">
   </a>
-  <div class="video-text">
+        <div class="video-text">
     <p>凱友伝 旧2章</p>
     <div class="password-block">
       <span class="password">GYD_2</span>
