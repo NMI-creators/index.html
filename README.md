@@ -135,21 +135,21 @@
           </div>
         </div>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8543.png" alt="旧3章" /></a>
+          <a href="https://gydoldthree.simdif.com"><img src="IMG_8543.png" alt="旧3章" /></a>
           <div class="video-info">
             <div>凱友伝 旧3章</div>
             <button class="copy-button" onclick="copyPassword('GYD_3')">パスワードをコピー</button>
           </div>
         </div>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8540.png" alt="新2章" /></a>
+          <a href="https://gydnewtwo.simdif.com"><img src="IMG_8540.png" alt="新2章" /></a>
           <div class="video-info">
             <div>凱友伝 新2章</div>
             <button class="copy-button" onclick="copyPassword('GYD_n_2')">パスワードをコピー</button>
           </div>
         </div>
         <div class="video-entry">
-          <a href="ここにURL"><img src="IMG_8540.png" alt="新3章" /></a>
+          <a href="https://gydnewthree.simdif.com"><img src="IMG_8540.png" alt="新3章" /></a>
           <div class="video-info">
             <div>凱友伝 新3章</div>
             <button class="copy-button" onclick="copyPassword('GYD_n_3')">パスワードをコピー</button>
