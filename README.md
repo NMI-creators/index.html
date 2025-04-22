@@ -96,7 +96,7 @@
   <div class="video">
     <h2>ホームページの使い方（解説動画）</h2>
     <video width="100%" controls>
-      <source src="ファイル名" type="video/mp4">
+      <source src="20250422_2025_04_23_03_07_49.mp4" type="video/mp4">
       お使いのブラウザは動画に対応していません。
     </video>
   </div>
